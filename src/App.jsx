@@ -13,6 +13,8 @@ const App = () => {
 
         <h2>This is a Demo Component</h2>
          <Demo  />
+
+         <h1>{5+5}</h1>
       </div>
 
     </div>
