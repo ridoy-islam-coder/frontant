@@ -4,8 +4,8 @@ import Demo from './Demo';
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
-      <p>Welcome to my React application!</p>
+      <h1 className=''>Hello World</h1>
+      <p style={{color: 'blue'}}>Welcome to my React application!</p>
 
 
       <div>
