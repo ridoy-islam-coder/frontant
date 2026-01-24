@@ -18,9 +18,11 @@ const Demo = () => {
         <h3>City List:</h3>
         <ul>
         {
-         city.map((cityName, index) =>
+           city.map((cityName, index) =>{
+          return <li key={index}>{cityName}</li>
+         }
             
-            <li key={index}>{cityName}</li>
+           
         
         )
 
