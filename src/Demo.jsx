@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Demo = () => {
 
     const city = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"];
-
+    const [num,sernum]=useState(0);
 
 
     return (
@@ -14,6 +14,31 @@ const Demo = () => {
             <button>Click Me</button>
 
       <div>
+
+
+    <div>
+        <h3>Number List:</h3>
+
+         <h1>number{num}</h1>
+        <button onClick={()=>{sernum(num+1)}}>Increment</button>
+        
+        <button onClick={()=>{
+            if(num>0){
+                sernum(num-1)
+            }}}>Decrement</button>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
 
         <h3>City List:</h3>
         <ul>
