@@ -26,6 +26,7 @@ const App = () => {
 
   return (
     <div>
+      
 
     <div>
    <BrowserRouter>
@@ -34,12 +35,6 @@ const App = () => {
    <Route path='/product' element={<ProductPage/>} />
     <Route path='/about' element={<AboutePage/>} />
     <Route path='/*' element={<NotFound/>} />
-
-
-
-
-
-
 
     </Routes>
    </BrowserRouter>
