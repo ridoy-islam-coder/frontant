@@ -1,12 +1,13 @@
 import React from 'react';
 import Manu from '../component/Manu';
+import Layout from '../component/Layout/Layout';
+import About from '../component/About';
 
 const AboutePage = () => {
     return (
-        <div>
-            <h1>About Page</h1>
-            <Manu />
-        </div>
+        <Layout>
+            <About/>
+        </Layout>
     );
 };
 

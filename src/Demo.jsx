@@ -8,7 +8,7 @@ const Demo = () => {
 
     return (
         <div>
-            <h2>This is a Demo Component</h2>
+            <h2  className='text-red '>This is a Demo Component</h2>
             <p>It serves as an example of a React functional component.</p>
             <input type="text" /> 
             <button>Click Me</button>
@@ -17,7 +17,7 @@ const Demo = () => {
 
 
     <div>
-        <h3>Number List:</h3>
+        <h3 className='bg-back fo'>Number List:</h3>
 
          <h1>number{num}</h1>
         <button onClick={()=>{sernum(num+1)}}>Increment</button>

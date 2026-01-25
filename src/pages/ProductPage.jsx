@@ -1,12 +1,12 @@
 import React from 'react';
-import Manu from '../component/Manu';
+import Layout from '../component/Layout/Layout';
+import Product from '../component/Product';
 
 const ProductPage = () => {
     return (
-        <div>
-            <h1>Product Page</h1>
-            <Manu />
-        </div>
+        <Layout>
+           <Product />       
+       </Layout>
     );
 };
 

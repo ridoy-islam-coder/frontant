@@ -1,12 +1,13 @@
 import React from 'react';
 import Manu from '../component/Manu';
+import Layout from '../component/Layout/Layout';
+import Home from '../component/Home';
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Home Page</h1>
-            <Manu />
-        </div>
+        <Layout>
+             <Home/>      
+        </Layout>
     );
 };
 
