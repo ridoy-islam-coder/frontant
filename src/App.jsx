@@ -1,11 +1,12 @@
 import React from 'react';
-import Demo from './Demo';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ProductPage from './pages/ProductPage';
+import FacebookAuth from './component/FacebookAuth';
+// import Demo from './Demo';
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// import HomePage from './pages/HomePage';
+// import ProductPage from './pages/ProductPage';
 
-import NotFound from './pages/NotFountPage';
-import AboutePage from './pages/aboutePage';
+// import NotFound from './pages/NotFountPage';
+// import AboutePage from './pages/aboutePage';
 
 const App = () => {
    
@@ -14,7 +15,7 @@ const App = () => {
     <div>
       
 
-   
+{/*    
    <BrowserRouter>
     <Routes>
    <Route path='/' element={<HomePage/>} />
@@ -23,11 +24,10 @@ const App = () => {
     <Route path='/*' element={<NotFound/>} />
 
     </Routes>
-   </BrowserRouter>
+   </BrowserRouter> */}
+    
 
-
-
-
+<FacebookAuth />
 
     </div>
   );
